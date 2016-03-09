@@ -31,7 +31,7 @@ __URLs__
 	* `https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4xx_Client_Error`
 	
 	```
-	protocol://domain//anchortag
+	protocol://domain/path/anchortag
 	```
 	
 * Can a server use more than 1 port?
@@ -39,7 +39,7 @@ __URLs__
 * Why is https different than http?
 	- https offers security features that http doesn't; for example, https provides secrecy when it comes to hiding the information entered into the website (ie. entering your password)
 * How does a server interpret the following url's query paramter.  What data structure does it create on the server?
-	- it creates an array "puppies" with the names fido, max, and moxie inside.
+	- it creates an array (puppies) with the names fido, max, and moxie inside.
 
 ```
 http://locahost:5000/animals?puppies=fido&puppies=max&puppies=moxie
